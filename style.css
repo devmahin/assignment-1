@@ -29,7 +29,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .header-text {
@@ -92,4 +91,49 @@ body {
 #Offer-section>img {
     width: 600px;
     margin-top: 40px;
+}
+
+
+
+/* Offer style start */
+#party-container {
+    width: 81%;
+    height: 505px;
+    background-image: url(resources/Vectorrr.png);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px auto;
+
+}
+.party-text{
+    width: 60%;
+    margin-left: 10%;
+}
+.party-text *{
+    margin-top: 30px;
+}
+.party-text>h1{
+    color: #FFF;
+    font-size: 51px;
+    font-family: var(--Merriweather);
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-top:10%;
+}
+.party-text>p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 17px;
+    font-family: var(--Inter);
+    font-weight: 400;
+}
+.party-text>h5{
+    color: #FFF;
+    /* text-align: center; */
+    font-family: var(--Inter);
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
 }
