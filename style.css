@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* font-family: 'Inter', sans-serif;
+    font-family:  */
+    --Merriweather: 'Merriweather Sans', sans-serif;
+    --Inter: 'Inter', sans-serif;
+}
+
+body {
+    background: #FFF;
+}
+
+header {
+    width: 100%;
+}
+
+.header-container {
+    width: 81%;
+    height: 505px;
+    background-image: url(resources/Banner\ Image.png);
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px auto;
+    font-family: var(--Merriweather);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-text {
+    width: 600px;
+}
+
+.header-text>h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.header-text>h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* Offer-section start */
