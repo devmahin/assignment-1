@@ -137,16 +137,21 @@ body {
     background-size: contain;
     margin: 50px auto;
     border-radius: 10px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#party-container img{
+    height: 400px;
 }
 
 .party-text {
-    width: 60%;
-    margin-left: 10%;
+    width: 50%;
+    /* margin-left: 10%; */
 }
 
 .party-text * {
-    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .party-text>h1 {
@@ -154,7 +159,7 @@ body {
     font-size: 51px;
     font-family: var(--Merriweather);
     font-weight: 900;
-    line-height: 88px;
+    line-height: 60px;
     letter-spacing: 7.04px;
     padding-top: 10%;
 }
