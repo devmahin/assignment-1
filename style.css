@@ -442,22 +442,23 @@ body {
 #subscribe-newsletter>.subscriber-btn>input {
     padding: 14px 30px;
     font-size: 15px;
-    border-radius: 50px;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
     border: none;
     outline: none;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #subscribe-newsletter>.subscriber-btn>button {
-    padding: 15px 30px;
+    padding: 14px 30px;
     font-size: 15px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     border: none;
-    position: relative;
-    left: -6%;
-    margin-top: 10px;
+    /* position: relative;
+    left: -6%; */
+    /* margin: 10px -50px 0 0; */
+    margin: 10px 0 0  -30px;
     color: #FFF;
 }
 
